@@ -1,1 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    display: flex;
+}
+
+main>img {
+    height: 450px;
+    border-radius: 16px 0 0 16px;
+}
+
+main>section {
+    border: 1px solid rgb(255, 255, 255);
+    width: 300px;
+    border-radius: 0 16px 16px 0;
+    background-color: #fff;
+    padding: 32px;
+}
+
+section>h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-bottom: 18px;
+    color: hsl(228, 12%, 48%);
+}
+
+section>h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    /*font-size: 12px;*/
+    line-height: 1;
+    margin-bottom: 18px;
+}
+
+section>p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+    color: hsl(228, 12%, 48%);
+}
+
+div {
+    display: flex
+}
+
+section>div>h3 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-right: 16px;
+    color: hsl(158, 36%, 37%);
+}
+
+section>div>h4 {
+    font-family: "Fraunces", serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    margin-top: 16px;
+}
+section>button>img{
+        margin-right: 8px;
+    }
+section>button {
+    margin-top: 18px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    width: 230px;
+    /* Ancho del botón */
+    height: 50px;
+    /* Altura del botón */
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    cursor: pointer; /* Cursor de mano al pasar */    
+
+}
